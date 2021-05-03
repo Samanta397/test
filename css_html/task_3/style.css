@@ -1,0 +1,30 @@
+/*3.	Напишите стили для кнопки, которая может иметь 
+        несколько состояний: active, disabled, danger. 
+        Цвета произвольные.*/
+
+
+.btn{
+    min-width: 100px;
+    font-family: inherit;
+    border: 0;
+    border-radius: 5px;
+    background: #1a5ada;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.btn[active]{
+    background-color: #1a5ada;
+}
+
+.btn[disabled] {
+    color: #d2d5db;
+    background: #6c7589;
+    cursor: not-allowed;
+}
+.btn[danger]{
+    background-color: red;
+}
